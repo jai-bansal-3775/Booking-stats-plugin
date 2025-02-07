@@ -1,0 +1,37 @@
+# Ignore Node.js dependencies and build files
+node_modules/
+build/
+dist/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore WordPress-specific files
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/backup-*
+
+# Ignore IDE/editor files
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+*.iml
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled files and environment settings
+.env
+.env.local
+*.bak
+*.swp
+*.swo
+*.swn
+
+# Ignore package manager lock files (optional)
+package-lock.json
+yarn.lock
